@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');* {
+    padding : 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+   
+}
+ body {
+    background-color: white;
+    width : 100vw;
+    height : 100vh;
+    box-sizing: border-box;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    overflow-y: auto;
+}
+
+.main-page {
+    display : flex;
+    flex-direction : column;
+    padding : 20px;
+    gap:25px
+
+}
+
+.contact-info-group {
+    display: flex;
+    flex-direction : row;
+    gap: 5px;
+    color: rgb(21, 21, 21);;
+    text-align : center;
+    align-items : center;
+    font-size: 12px;
+}
+.contact {
+    background-color: rgba(192, 192, 192, 0.449);
+    width:fit-content;
+    height: 35px;
+    border-radius: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    text-align : center;
+    align-items : center;
+    justify-content : center;
+}
+
+.career-things {
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(198, 195, 195);
+    width: fit-content;
+}
+.career-obj {
+    font-size: small;
+    font-weight: 200;
+    line-height: 2;
+}
+.experience-and-internship {
+    gap: 15px;
+}
+.exp {
+    font-size: large;
+    font-weight: bolder;
+    border-bottom: 2px solid rgb(198, 195, 195);
+    width: fit-content;
+    margin-bottom: 10px;
+}
+.intern {
+    font-size: small;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.ropay-period {
+    color:blue;
+    margin-bottom:7px;
+    
+
+}
+.body-first-bullet {
+    color: rgb(23, 21, 21);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 2;
+    padding-left: 10px;
+}
+.skillhead {
+    gap: 20px;
+}
+.skillset {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
